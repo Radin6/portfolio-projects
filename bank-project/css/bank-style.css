@@ -1,0 +1,94 @@
+:root {
+  --primary: #44bba4;
+  --second: rgb(91, 132, 185);
+  --light1: #e7e5df;
+  --ligth2: #d3d0cb;
+  --gold: #e7bb41;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header {
+  background-color: var(--second);
+  border: 2px solid black;
+}
+
+.header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header p {
+  padding: 0px;
+  margin: 0;
+}
+
+.all {
+  width: 350px;
+  text-align: center;
+  margin: auto;
+  background-color: var(--light1);
+  border: 4px inset rgb(207, 135, 11);
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--primary);
+}
+
+.cryptoname {
+  margin: 0%;
+}
+
+.description1 {
+  font-size: 85%;
+}
+
+.bank-name {
+  font-size: 27px;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+button {
+  background-color: var(--gold);
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px black;
+}
+
+button:hover {
+  background-color: rgb(207, 135, 11);
+}
+
+.bank-logo {
+  width: 35%;
+}
+
+table,
+td,
+th {
+  border: 0px;
+}
+
+fieldset {
+  background-color: var(--ligth2);
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+legend {
+  background-color: var(--light1);
+  border-radius: 10px;
+  border: 0px;
+}
